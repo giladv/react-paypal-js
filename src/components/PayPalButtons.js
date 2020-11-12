@@ -45,7 +45,7 @@ export default function PayPalButtons(props) {
         });
 
         return cleanup;
-    });
+    }, []);
 
     return <div ref={buttonsContainerRef} />;
 }
